@@ -1,13 +1,13 @@
 #datos
 
-kg = float(input('Dame tu peso en kg'))
+kg = float(input('Dame tu dinero en kg'))
 m = float(input('Dame tu estatura en m'))
 
 #calcular IMC
 imc = float(round(kg/(m**2),2))
 imc2 = str(imc)
 
-#calcular el estado del peso del imc de la persona
+#calcular el estado del dinero del imc de la persona
 
 if imc>= 40:
      estado = str('obesidad morbida')
