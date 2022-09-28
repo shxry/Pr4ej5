@@ -1,7 +1,7 @@
 #datos
 
-kg = float(input('Dame tu peso en kg'))
-m = float(input('Dame tu estatura en m'))
+kg = float(input('Dame tu peso'))
+m = float(input('Dame tu estatura en milimietros'))
 
 #calcular IMC
 imc = float(round(kg/(m**2),2))
